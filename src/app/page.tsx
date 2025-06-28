@@ -40,6 +40,7 @@ export default function Home() {
             {message ? message : "Loading message..."}
           </li>
           <p><Link href="/about">About Us</Link></p> 
+          <p><Link href="/blog">Blog</Link></p>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
