@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [message, setMessage] = useState("");
@@ -31,6 +32,7 @@ export default function Home() {
             </code>
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
               {message}
+              <p><Link href="/contact">Contact Us</Link></p> {/* Add this line */}
             </code>
             .
           </li>
