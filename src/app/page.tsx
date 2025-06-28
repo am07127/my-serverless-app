@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [message, setMessage] = useState("");
@@ -37,6 +38,7 @@ export default function Home() {
           <li className="tracking-[-.01em]">
             {message ? message : "Loading message..."}
           </li>
+          <p><Link href="/about">About Us</Link></p> 
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
