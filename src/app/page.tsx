@@ -42,6 +42,7 @@ export default function Home() {
           <p><Link href="/about">About Us</Link></p> 
           <p><Link href="/cars">Cars</Link></p> {/* Add this line */}
           <p><Link href="/blog">Blog</Link></p>
+          <p><Link href="/dog">Dog</Link></p>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
