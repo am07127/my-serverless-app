@@ -44,6 +44,9 @@ export default function Home() {
           <p><Link href="/blog">Blog</Link></p>
           <p><Link href="/dog">Dog</Link></p>
           <p><Link href="/paint">Paint</Link></p>
+          <p><Link href="/Cardiology">Cardiology</Link></p>
+          <p>This is my second commit</p>
+          <p>This is my third commit</p>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
